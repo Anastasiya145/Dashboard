@@ -1,7 +1,7 @@
 # DASHBOARD
 The pixel-perfect responsive page. All elements are adaptive for mobile & desktop.
 
-## 🔗 Link: [DASHBOARD](https://Anastasiya145.github.io/dashboard/)
+## 🔗 Link: [DASHBOARD](https://anastasiya145.github.io/Dashboard/)
 
 ![image](https://user-images.githubusercontent.com/105457299/217330191-3d5de914-98e0-46d5-8f7c-99e209294bf9.png)
 
