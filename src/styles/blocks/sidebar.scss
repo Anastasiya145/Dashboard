@@ -1,0 +1,95 @@
+.sidebar {
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 40px 28px 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width:1024px) {
+    width: 306px;
+  }
+
+  &__menu {
+    display: flex;
+  }
+
+  &__top-block {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+  }
+
+  &__logo {
+    width: 37px;
+    height: 37px;
+    margin-right: 12px;
+  }
+  
+  &__title {
+    color: #000;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    margin-right: 4px;
+  }
+
+  &__text {
+    color: #838383;
+    font-size: 10px;
+    line-height: 15px;
+    padding-bottom: 6.5px;
+  }
+
+  &__closer {
+    height: 24px;
+    width: 24px;
+    fill: $grey-color;
+
+    @media (min-width:1024px) {
+      display: none;
+    }
+  }
+
+  &__button-block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__user {
+    display: flex;
+    flex-direction: column;
+
+    &-photo {
+      height: 42px;
+      width: 42px;
+      margin-right: 12px;
+    }
+
+    &-name {
+      font-size: 14px;
+      line-height: 21px;
+      color: #000;
+    }
+
+    &-position {
+      font-size: 12px;
+      line-height: 18px;
+      color: #757575;
+    }
+  }
+}

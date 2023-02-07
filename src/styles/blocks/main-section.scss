@@ -1,12 +1,58 @@
 .main {
-  padding: 41px 71px;
-  margin-left: 306px;
+  padding: 20px;
+
+  @media (min-width:1024px) {
+    margin-left: 306px;
+    padding: 41px 71px;
+  }
+
+  &__top-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 51px;
+    justify-content: start;
+  }
 
   &__title {
     font-size: 24px;
     line-height: 36px;
     letter-spacing: normal;
     color: #000;
-    margin-bottom: 51px;
+  }
+
+  &__menu-opener {
+    height: 24px;
+    width: 24px;
+    fill: $grey-color;
+    margin-right: 20px;
+
+    @media (min-width:1024px) {
+      display: none;
+    }  
+  }
+
+}
+
+.page {
+  &__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+
+    &:target {
+      transform: translateX(0);
+    }
+
+    @media (min-width: 1024px) {
+      transform: none;
+    }
+  }
+
+  &__body--with-menu {
+    overflow: hidden;
   }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,98 +15,124 @@
     >
   </head>
   <body>
-    <div class="nav">
-      <div class="nav__content">
-        <div class="nav__top-block">
-          <img
-            src="/images/logo.svg"
-            class="nav__logo"
-            alt="logo"
-          >
+    <div class="sidebar page__menu" id="menu">
+      <div class="sidebar__content">
+        <div class="sidebar__top-block">
+          <div class="sidebar__heading">
+            <img
+              src="/images/logo.svg"
+              class="sidebar__logo"
+              alt="logo"
+            >
+            <a href="#">
+              <h1 class="sidebar__title">Dashboard</h1>
+            </a>
+            <p class="sidebar__text">v.01</p>
+          </div>
           <a href="#">
-            <h1 class="nav__title">Dashboard</h1>
+            <svg class="sidebar__closer" viewBox="0 0 20 20">
+              <path d="M13.889,11.611c-0.17,0.17-0.443,0.17-0.612,0l-3.189-3.187l-3.363,3.36c-0.171,0.171-0.441,0.171-0.612,0c-0.172-0.169-0.172-0.443,0-0.611l3.667-3.669c0.17-0.17,0.445-0.172,0.614,0l3.496,3.493C14.058,11.167,14.061,11.443,13.889,11.611 M18.25,10c0,4.558-3.693,8.25-8.25,8.25c-4.557,0-8.25-3.692-8.25-8.25c0-4.557,3.693-8.25,8.25-8.25C14.557,1.75,18.25,5.443,18.25,10 M17.383,10c0-4.07-3.312-7.382-7.383-7.382S2.618,5.93,2.618,10S5.93,17.381,10,17.381S17.383,14.07,17.383,10"></path>
+            </svg>
           </a>
-          <p class="nav__text">v.01</p>
         </div>
-        <ul class="nav__menu menu menu__list">
-          <a href="#" class="menu__link">
-            <li class="menu__item">
-              <div class="menu__item-container">
-                <div class="menu__icon menu__icon--1"></div>
-                <p class="menu__title">
-                  Dashboard
-                </p>
-              </div>
-            </li>
-          </a>
-          <a href="#">
-            <li class="menu__item">
-              <div class="menu__item-container">
-                <!-- <img
-                  src="/images/icon2.svg"
-                  class="menu__icon"
-                  alt="product-icon"
-                > -->
-                <div class="menu__icon menu__icon--2"></div>
-                <p class="menu__title">
-                  Product
-                </p>
-              </div>
-              <div class="menu__icon-arrow"></div>
-            </li>
-          </a>
-          <a href="#customers">
-            <li class="menu__item">
-              <div class="menu__item-container">
-                <div class="menu__icon menu__icon--3"></div>
-                <p class="menu__title">
-                  Customers
-                </p>
-              </div>
-              <div class="menu__icon-arrow"></div>
-            </li>
-          </a>
-          <a href="#">
-            <li class="menu__item">
-              <div class="menu__item-container">
-                <div class="menu__icon menu__icon--4"></div>
-                <p class="menu__title">
-                  Income
-                </p>
-              </div>
-              <div class="menu__icon-arrow"></div>
-            </li>
-          </a>
-          <a href="#">
-            <li class="menu__item">
-              <div class="menu__item-container">
-                <div class="menu__icon menu__icon--5"></div>
-                <p class="menu__title">
-                  Promote
-                </p>
-              </div>
-              <div class="menu__icon-arrow"></div>
-            </li>
-          </a>
-          <a href="#">
-            <li class="menu__item">
-              <div class="menu__item-container">
-                <div class="menu__icon menu__icon--6"></div>
-                <p class="menu__title">
-                  Help
-                </p>
-              </div>
-              <div class="menu__icon-arrow"></div>
-            </li>
-          </a>
-        </ul>
+        <nav class="sidebar__menu menu">
+          <ul class="menu__list">
+            <a href="#" class="menu__link">
+              <li class="menu__item">
+                <div class="menu__item-container">
+                  <div class="menu__icon menu__icon--1"></div>
+                  <p class="menu__title">
+                    Dashboard
+                  </p>
+                </div>
+              </li>
+            </a>
+            <a href="#">
+              <li class="menu__item">
+                <div class="menu__item-container">
+                  <div class="menu__icon menu__icon--2"></div>
+                  <p class="menu__title">
+                    Product
+                  </p>
+                </div>
+                <div class="menu__icon-arrow"></div>
+              </li>
+            </a>
+            <a href="#customers">
+              <li class="menu__item">
+                <div class="menu__item-container">
+                  <div class="menu__icon menu__icon--3"></div>
+                  <p class="menu__title">
+                    Customers
+                  </p>
+                </div>
+                <div class="menu__icon-arrow"></div>
+              </li>
+            </a>
+            <a href="#">
+              <li class="menu__item">
+                <div class="menu__item-container">
+                  <div class="menu__icon menu__icon--4"></div>
+                  <p class="menu__title">
+                    Income
+                  </p>
+                </div>
+                <div class="menu__icon-arrow"></div>
+              </li>
+            </a>
+            <a href="#">
+              <li class="menu__item">
+                <div class="menu__item-container">
+                  <div class="menu__icon menu__icon--5"></div>
+                  <p class="menu__title">
+                    Promote
+                  </p>
+                </div>
+                <div class="menu__icon-arrow"></div>
+              </li>
+            </a>
+            <a href="#">
+              <li class="menu__item">
+                <div class="menu__item-container">
+                  <div class="menu__icon menu__icon--6"></div>
+                  <p class="menu__title">
+                    Help
+                  </p>
+                </div>
+                <div class="menu__icon-arrow"></div>
+              </li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="sidebar__button-block">
+        <img
+          src="/images/user-face.png"
+          class="sidebar__user-photo"
+          alt="user-photo"
+        >
+        <div class="sidebar__user">
+          <h2 class="sidebar__user-name">
+            Evano
+          </h2>
+          <p class="sidebar__user-position">
+            Project Manager
+          </p>
+        </div>
       </div>
     </div>
 
     <main class="main">
-      <h1 class="main__title">
-        Hello Evano 👋🏼,
-      </h1>
+      <div class="main__top-block">
+        <a href="#menu">
+          <svg class="main__menu-opener" viewBox="0 0 20 20">
+            <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"></path>
+          </svg>
+        </a>
+        <h1 class="main__title">
+          Hello Evano 👋🏼,
+        </h1>
+      </div>
       <section id="customers" class="customers">
         <div class="customers__card">
           <div class="customers__block customers__block--top">
@@ -249,7 +275,7 @@
             </p>
             <div class="customers__pagination">
               <a href="#">«</a>
-              <a href="#" class="active">1</a>
+              <a href="#">1</a>
               <a href="#">2</a>
               <a href="#">3</a>
               <a href="#">4</a>
@@ -261,7 +287,6 @@
         </div>
       </section>
     </main>
-
 
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>

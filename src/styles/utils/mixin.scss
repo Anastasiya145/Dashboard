@@ -1,32 +1,15 @@
-// Notebook 1280px
-// Tablet 1024
-// Mobile (> 320px)
-
 @mixin onMobile {
   @media (min-width:320px) {
     @content;
   }
 }
 
-@mixin onTablet {
-  @media (min-width:768px) {
-    @content;
-  }
-}
-
 @mixin onNotebook {
-  @media (min-width:1280px) {
+  @media (min-width:1024px) {
     @content;
   }
 }
 
-// @mixin simple-white-text-Popins-13px {
-//   font-family: "Poppins", sans-serif;
-//   font-weight: 500;
-//   text-decoration: none;
-//   color: #fff;
-//   font-size: 13px;
-//   line-height: 20px;
-//   letter-spacing: 3px;
-//   text-transform: uppercase;
+// .mobile--hidden {
+//   display: none;
 // }
