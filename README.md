@@ -1,4 +1,15 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# DASHBOARD
+The pixel-perfect responsive page. All elements are adaptive for mobile & desktop.
+
+## 🔗 Link: [DASHBOARD](https://Anastasiya145.github.io/dashboard/)
+
+![image](https://user-images.githubusercontent.com/105457299/217330191-3d5de914-98e0-46d5-8f7c-99e209294bf9.png)
+
+## 🛠 Used tools:
+  + HTML
+  + CSS, Sass (SCSS) and BEM
+  + JavaScript
+
+## 🔗 Get in touch with me!
+[linkedin](https://www.linkedin.com/in/anastasiya-ivanova-494567109/)
+
