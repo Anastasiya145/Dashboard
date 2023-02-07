@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      type="image/x-icon"
+      href="/images/logo.svg"
+      rel="shortcut icon"
+    >
   </head>
   <body>
     <div class="nav">
@@ -95,9 +103,162 @@
       </div>
     </div>
 
-    <main>
+    <main class="main">
+      <h1 class="main__title">
+        Hello Evano 👋🏼,
+      </h1>
       <section id="customers" class="customers">
-        <div class="customers__card">1</div>
+        <div class="customers__card">
+          <div class="customers__block customers__block--top">
+            <div class="customers__heading">
+              <h2 class="customers__title">
+                All Customers
+              </h2>
+              <p class="customers__info">
+                Active Members
+              </p>
+            </div>
+            <form
+              class="search"
+              method="post"
+              action="/local-host:3000"
+            >
+              <input
+                class="search__item"
+                data-qa="big"
+                type="search"
+                placeholder="Search"
+              >
+            </form>
+          </div>
+
+          <table class="customers__table">
+            <thead>
+              <tr>
+                <th>Customer Name</th>
+                <th>Company</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>Country</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td>
+                  <button class="button button--active">
+                    Active
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td>
+                  <button class="button button--inactive">
+                    Inactive
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td>
+                  <button class="button button--inactive">
+                    Inactive
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td>
+                  <button class="button button--active">
+                    Active
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td>
+                  <button class="button button--active">
+                    Active
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td>
+                  <button class="button button--active">
+                    Active
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td>
+                  <button class="button button--active">
+                    Active
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td>
+                  <button class="button button--inactive">
+                    Inactive
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="customers__block">
+            <p class="customers__table-info">
+              Showing data 1 to 8 of  256K entries
+            </p>
+            <div class="customers__pagination">
+              <a href="#">«</a>
+              <a href="#" class="active">1</a>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <p>...</p>
+              <a href="#">40</a>
+              <a href="#">»</a>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
