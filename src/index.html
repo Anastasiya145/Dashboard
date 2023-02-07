@@ -3,11 +3,105 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <div class="nav">
+      <div class="nav__content">
+        <div class="nav__top-block">
+          <img
+            src="/images/logo.svg"
+            class="nav__logo"
+            alt="logo"
+          >
+          <a href="#">
+            <h1 class="nav__title">Dashboard</h1>
+          </a>
+          <p class="nav__text">v.01</p>
+        </div>
+        <ul class="nav__menu menu menu__list">
+          <a href="#" class="menu__link">
+            <li class="menu__item">
+              <div class="menu__item-container">
+                <div class="menu__icon menu__icon--1"></div>
+                <p class="menu__title">
+                  Dashboard
+                </p>
+              </div>
+            </li>
+          </a>
+          <a href="#">
+            <li class="menu__item">
+              <div class="menu__item-container">
+                <!-- <img
+                  src="/images/icon2.svg"
+                  class="menu__icon"
+                  alt="product-icon"
+                > -->
+                <div class="menu__icon menu__icon--2"></div>
+                <p class="menu__title">
+                  Product
+                </p>
+              </div>
+              <div class="menu__icon-arrow"></div>
+            </li>
+          </a>
+          <a href="#customers">
+            <li class="menu__item">
+              <div class="menu__item-container">
+                <div class="menu__icon menu__icon--3"></div>
+                <p class="menu__title">
+                  Customers
+                </p>
+              </div>
+              <div class="menu__icon-arrow"></div>
+            </li>
+          </a>
+          <a href="#">
+            <li class="menu__item">
+              <div class="menu__item-container">
+                <div class="menu__icon menu__icon--4"></div>
+                <p class="menu__title">
+                  Income
+                </p>
+              </div>
+              <div class="menu__icon-arrow"></div>
+            </li>
+          </a>
+          <a href="#">
+            <li class="menu__item">
+              <div class="menu__item-container">
+                <div class="menu__icon menu__icon--5"></div>
+                <p class="menu__title">
+                  Promote
+                </p>
+              </div>
+              <div class="menu__icon-arrow"></div>
+            </li>
+          </a>
+          <a href="#">
+            <li class="menu__item">
+              <div class="menu__item-container">
+                <div class="menu__icon menu__icon--6"></div>
+                <p class="menu__title">
+                  Help
+                </p>
+              </div>
+              <div class="menu__icon-arrow"></div>
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <section id="customers" class="customers">
+        <div class="customers__card">1</div>
+      </section>
+    </main>
+
+
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

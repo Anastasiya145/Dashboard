@@ -1,7 +1,6 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "utils/vars.scss";
+@import "utils/reset.scss";
+@import "utils/mixin.scss";
 
-body {
-  background: $c-gray;
-}
+@import "/styles/blocks/nav.scss";
+@import "/styles/blocks/customers.scss";
